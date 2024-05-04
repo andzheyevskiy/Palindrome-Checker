@@ -7,7 +7,8 @@ body{
     align-items: center;
 }
 main{
-    width: 450px;
+    width: 95vw;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,7 +20,8 @@ h1{
     color: white;
 }
 .pali{
-    width: 100%;
+    width: 85%;
+    max-width: 450px;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -48,7 +50,7 @@ h1{
     padding: 5px 15px;
 }
 .definition{
-    width: 450px;
+    max-width: 450px;
     margin-top: 35px;
     background-color: green;
     color: white;
